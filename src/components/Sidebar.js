@@ -75,13 +75,13 @@ const Sidebar = () => {
                         href="#"
                         className="sidebar-link"
                         activeClass="active"
-                        to="skill"
+                        to="skills"
                         spy={true}
                         smooth={true}
                         offset={0}
                         duration={400}
                     >
-                        SKILL
+                        SKILLS
                     </Link>
              </Nav.Item>
              <Nav.Item>
@@ -89,13 +89,13 @@ const Sidebar = () => {
                         href="#"
                         className="sidebar-link"
                         activeClass="active"
-                        to="interest"
+                        to="interests"
                         spy={true}
                         smooth={true}
                         offset={0}
                         duration={400}
                     >
-                        INTEREST
+                        INTERESTS
                     </Link>
              </Nav.Item>
              <Nav.Item>

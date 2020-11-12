@@ -2,10 +2,10 @@ import React from "react";
 
 import { ListGroup } from "react-bootstrap";
 
-const Experience = () => {
-  return <section id="experience">
+const Skills = () => {
+  return <section id="skills">
     <div className="container">
-    <h1>Experience</h1>
+    <h1>Skills</h1>
     <ListGroup variant="flush">
       <ListGroup.Item>Cras justo odio</ListGroup.Item>
       <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
@@ -16,4 +16,4 @@ const Experience = () => {
   </section>;
 };
 
-export default Experience;
+export default Skills;

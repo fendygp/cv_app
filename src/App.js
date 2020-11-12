@@ -5,11 +5,17 @@ import $ from "jquery";
 import About from "./components/About";
 import Sidebar from "./components/Sidebar";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
+import Interests from "./components/Interests";
+import Awards from "./components/Awards";
+
 
 import "aos/dist/aos.css";
 import "./assets/styles/main.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import Education from "./components/Education";
+
+
 
 
 
@@ -42,6 +48,9 @@ const App = () => {
               <About />
               <Experience />
               <Education />
+              <Skills />
+              <Interests />
+              <Awards />
         </main>
         </Col> 
     </Row>
