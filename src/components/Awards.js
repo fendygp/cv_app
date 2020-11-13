@@ -16,8 +16,8 @@ const Awards = () => {
     <div className="container">
     <Title>Awards</Title>
     <ListGroup variant="flush">
-    <ListGroup.Item>  <Icon.Award size={12} /> 1st Winner lomba balap karung 17an</ListGroup.Item>
-    <ListGroup.Item>  <Icon.Award size={12} /> Finalist MGDW (mobile game developer war)</ListGroup.Item>
+    <ListGroup.Item>  <Icon.Award size={16} /> 1st Winner lomba balap karung 17an</ListGroup.Item>
+    <ListGroup.Item>  <Icon.Award size={16} /> Finalist MGDW (mobile game developer war)</ListGroup.Item>
     </ListGroup>
       </div>
   </section>;

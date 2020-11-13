@@ -51,7 +51,7 @@ const HomeTitle = styled.h1`
 `;
 
 const SubTitle = styled.h5`
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1.83;
   text-align: left;
@@ -65,7 +65,7 @@ const SubTitle = styled.h5`
 
 
 const Icons = styled.h1`
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1.83;
   text-align: left;

@@ -16,8 +16,8 @@ const Skills = () => {
     <div className="container">
     <Title>Skills</Title>
     <ListGroup variant="flush">
-    <ListGroup.Item>  <Icon.Code size={12} /> PHP, HTML, Javascript, Golang</ListGroup.Item>
-    <ListGroup.Item>  <Icon.Coffee size={12} /> Adobe XD, Photoshop, Ilustrator</ListGroup.Item>
+    <ListGroup.Item>  <Icon.Code size={16} /> PHP, HTML, Javascript, Golang</ListGroup.Item>
+    <ListGroup.Item>  <Icon.Coffee size={16} /> Adobe XD, Photoshop, Ilustrator</ListGroup.Item>
     </ListGroup>
       </div>
   </section>;

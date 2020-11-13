@@ -17,9 +17,9 @@ const Experience = () => {
     <div className="container">
     <Title>Experience</Title>
     <ListGroup variant="flush">
-      <ListGroup.Item>  <Icon.Bookmark size={12} /> 2014-2015 Full Stack Developer on Raion Studio</ListGroup.Item>
-      <ListGroup.Item><Icon.Bookmark size={12} /> 2016 Freelance</ListGroup.Item>
-      <ListGroup.Item><Icon.Bookmark size={12} /> 2017-Now Developer API on BRI</ListGroup.Item>
+      <ListGroup.Item>  <Icon.Bookmark size={16} /> 2014-2015 Full Stack Developer on Raion Studio</ListGroup.Item>
+      <ListGroup.Item><Icon.Bookmark size={16} /> 2016 Freelance</ListGroup.Item>
+      <ListGroup.Item><Icon.Bookmark size={16} /> 2017-Now Developer API on BRI</ListGroup.Item>
     </ListGroup>
       </div>
   </section>;
