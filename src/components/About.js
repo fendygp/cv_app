@@ -6,6 +6,10 @@ import bgImg from "../assets/img/bg_home.jpg";
 
 import { GitHub , Linkedin } from 'react-feather';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+
 const Section = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,8 +99,12 @@ const About = () => {
           data-aos-easing="ease"
           data-aos-delay="400"
         >
-          <a href="https://id.linkedin.com/in/fendy-g-9a1204a0" target="_blank" rel="noreferrer"><Linkedin size={20} fill="yes" stroke="none"/> </a>
-          <a href="https://github.com/fendygp" target="_blank" rel="noreferrer"><GitHub size={20} fill="yes" stroke="none"/>   </a>
+         {/* <a href="https://id.linkedin.com/in/fendy-g-9a1204a0" target="_blank" rel="noreferrer"><Linkedin size={20} fill="yes" stroke="none"/> </a>
+          <a href="https://github.com/fendygp" target="_blank" rel="noreferrer"><GitHub size={20} fill="yes" stroke="none"/>   </a> */}
+
+         <a href="https://id.linkedin.com/in/fendy-g-9a1204a0" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size={"2x"} color={"black"}/></a>
+         
+         <a style={{paddingLeft:"10px"}} href="https://github.com/fendygp" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faGithub} size={"2x"} color={"black"}/></a>
         </Icons>
       </div>
     </Section>
