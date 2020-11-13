@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 import bgImg from "../assets/img/bg_home.jpg";
 
-import { GitHub , Linkedin } from 'react-feather';
+//import { GitHub , Linkedin } from 'react-feather';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
