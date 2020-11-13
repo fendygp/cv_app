@@ -2,15 +2,22 @@ import React from "react";
 
 import { ListGroup } from "react-bootstrap";
 
+import * as Icon from 'react-feather';
+
+
+import styled from "styled-components";
+
+const Title = styled.h1`
+    font-size: 40px;
+`;
+
 const Awards = () => {
   return <section id="awards">
     <div className="container">
-    <h1>Awards</h1>
+    <Title>Awards</Title>
     <ListGroup variant="flush">
-      <ListGroup.Item>Cras justo odio</ListGroup.Item>
-      <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-      <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-      <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+    <ListGroup.Item>  <Icon.Award size={12} /> 1st Winner lomba balap karung 17an</ListGroup.Item>
+    <ListGroup.Item>  <Icon.Award size={12} /> Finalist MGDW (mobile game developer war)</ListGroup.Item>
     </ListGroup>
       </div>
   </section>;

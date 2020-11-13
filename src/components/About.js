@@ -33,13 +33,13 @@ const BgOverlay = styled.div`
 const HomeTitle = styled.h1`
   font-weight: 300;
   text-align: left;
-  color: #1b5cce;
-  font-size: 22px;
+  color: $color-black;
+  font-size: 43px;
   line-height: 1.55;
   margin-bottom: 23px;
 
   @media (min-width: 992px) {
-    font-size: 38px;
+    font-size: 50px;
     line-height: 1.39;
     max-width: 1100px;
     margin-bottom: 0;
@@ -51,7 +51,7 @@ const SubTitle = styled.h5`
   font-weight: normal;
   line-height: 1.83;
   text-align: left;
-  color: #1b5cce;
+  color: $color-gray;
 
   @media (min-width: 992px) {
     max-width: 385px;
@@ -65,7 +65,7 @@ const Icons = styled.h1`
   font-weight: normal;
   line-height: 1.83;
   text-align: left;
-  color: #1b5cce;
+  color: $color-gray;
 
   @media (min-width: 992px) {
     max-width: 385px;
@@ -81,7 +81,7 @@ const About = () => {
       <BgOverlay />
       <div className="container">
         <HomeTitle data-aos="zoom-in">
-          Fendy Gusta Pradana
+          Fendy G. <span style={{color:"#bd5b3c"}}>Pradana </span>
         </HomeTitle>
         <SubTitle
           data-aos="fade-up"
@@ -95,7 +95,8 @@ const About = () => {
           data-aos-easing="ease"
           data-aos-delay="400"
         >
-         <Linkedin size={20} fill="yes" stroke="none"/> <GitHub size={20} fill="yes" stroke="none"/>  
+          <a href="https://id.linkedin.com/in/fendy-g-9a1204a0" target="_blank" rel="noreferrer"><Linkedin size={20} fill="yes" stroke="none"/> </a>
+          <a href="https://github.com/fendygp" target="_blank" rel="noreferrer"><GitHub size={20} fill="yes" stroke="none"/>   </a>
         </Icons>
       </div>
     </Section>
