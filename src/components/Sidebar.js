@@ -7,6 +7,7 @@ import Image from "react-bootstrap/Image";
 import userImg from "../assets/img/man.png";
 
 
+
 const Sidebar = () => {
  
   const scrollTo = id => e => {
@@ -24,27 +25,29 @@ const Sidebar = () => {
             <Nav className="col-md-4 sidebar">
             
               <Image src={userImg} 
-              href="#About"
-              onClick={scrollTo("home")}
+              href="/About"
+              onClick={scrollTo("about")}
               className="imageRound"
               />
+            
              <Nav.Item>
                     <Link
-                        href="#home"
+                        href="/About"
                         className="sidebar-link"
                         activeClass="active"
-                        onClick={scrollTo("About")}
+                        onClick={scrollTo("about")}
                         spy={true}
                         smooth={true}
                         offset={0}
                         duration={400}
                     >
                         ABOUT
+                        
                     </Link>
              </Nav.Item>
              <Nav.Item>
                  <Link
-                        href="#"
+                        href="/experience"
                         className="sidebar-link"
                         activeClass="active"
                         to="experience"
@@ -53,12 +56,12 @@ const Sidebar = () => {
                         offset={0}
                         duration={400}
                     >
-                        EXPERIENCE
+                         EXPERIENCE
                     </Link>
              </Nav.Item>
              <Nav.Item>
                  <Link
-                        href="#"
+                        href="/education"
                         className="sidebar-link"
                         activeClass="active"
                         to="education"
@@ -67,12 +70,12 @@ const Sidebar = () => {
                         offset={0}
                         duration={400}
                     >
-                        EDUCATION
+                         EDUCATION
                     </Link>
              </Nav.Item>
              <Nav.Item>
                  <Link
-                        href="#"
+                        href="/skills"
                         className="sidebar-link"
                         activeClass="active"
                         to="skills"
@@ -81,12 +84,12 @@ const Sidebar = () => {
                         offset={0}
                         duration={400}
                     >
-                        SKILLS
+                         SKILLS
                     </Link>
              </Nav.Item>
              <Nav.Item>
                  <Link
-                        href="#"
+                        href="/interests"
                         className="sidebar-link"
                         activeClass="active"
                         to="interests"
@@ -95,12 +98,12 @@ const Sidebar = () => {
                         offset={0}
                         duration={400}
                     >
-                        INTERESTS
+                       INTERESTS
                     </Link>
              </Nav.Item>
              <Nav.Item>
                  <Link
-                        href="#"
+                        href="/awards"
                         className="sidebar-link"
                         activeClass="active"
                         to="awards"

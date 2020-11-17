@@ -19,6 +19,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 
 
+
 const App = () => {
   useEffect(() => {
     AOS.init({ once: true });
